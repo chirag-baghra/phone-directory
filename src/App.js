@@ -12,6 +12,7 @@ function App() {
         </a>
       </header>
     <div>
+      Phone Directory
       </div>
   );
 }
