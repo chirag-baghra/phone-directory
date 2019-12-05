@@ -1,20 +1,19 @@
-import React from 'react';
-
-function App() {
-  return (
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import React, { Component } from 'react';
+class App extends Component {
+  render() {
+    return (
     <div>
       Phone Directory
+      <div className="header">
+          Phone Directory
+        </div>
+        <button>Add</button>
+        <div>
+          <span>Name</span><br />
+          <span>Phone</span>
+        </div>
       </div>
   );
 }
-
+}
 export default App;
